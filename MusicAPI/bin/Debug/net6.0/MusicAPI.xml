@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MusicAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MusicAPI.Controllers.AlbumsController.GetAllAsync">
+            <summary>
+            Returns all Albums in a simplified form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.AlbumsController.GetSingleAsync(System.String)">
+            <summary>
+            Returns target album in a simplified form
+            </summary>
+            <param name="albumName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.AlbumsController.GetSingleDetailedAsync(System.String)">
+            <summary>
+            Returns target alubm in a detailed form with a list of songs
+            </summary>
+            <param name="albumName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.AlbumsController.GetSongFromAlbumAsync(System.String,System.String)">
+            <summary>
+            Returns target song inside album
+            </summary>
+            <param name="albumName"></param>
+            <param name="songName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.AlbumsController.CreateNewAsync(MusicAPI.DTOs.AlbumDTOs.AlbumCreateAndUpdateDTO)">
+            <summary>
+            Creates new album
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.AlbumsController.UpdateAsync(System.String,MusicAPI.DTOs.AlbumDTOs.AlbumCreateAndUpdateDTO)">
+            <summary>
+            Updates values of the target album
+            </summary>
+            <param name="albumName"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.AlbumsController.DeleteAsync(System.String)">
+            <summary>
+            Deletes target album
+            </summary>
+            <param name="albumName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.ArtistsController.GetAllAsync">
+            <summary>
+            Returns all Artists in a simplified form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.ArtistsController.GetSingleAsync(System.String)">
+            <summary>
+            Returns target Artists in a detailed form
+            </summary>
+            <param name="artistName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.ArtistsController.CreateNewAsync(MusicAPI.DTOs.ArtistDTOs.ArtistCreateAndUpdateDTO)">
+            <summary>
+            Creates new Artist
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.ArtistsController.UpdateAsync(System.String,MusicAPI.DTOs.ArtistDTOs.ArtistCreateAndUpdateDTO)">
+            <summary>
+            Updates target Artist
+            </summary>
+            <param name="artistName"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.ArtistsController.DeleteAsync(System.String)">
+            <summary>
+            Deletes target Artist
+            </summary>
+            <param name="artistName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.GetAllAsync">
+            <summary>
+            Returns all Genres in a simplified form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.GetSingleAsync(System.String)">
+            <summary>
+            Returns single Genre with Song count
+            </summary>
+            <param name="genreName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.GetSingleDetailedAsync(System.String)">
+            <summary>
+            Returns target Genre in a detailed form with Song list
+            </summary>
+            <param name="genreName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.GetSingleSongFromAlbumAsync(System.String,System.String)">
+            <summary>
+            Returns target Song inside Album in a detailed form
+            </summary>
+            <param name="genreName"></param>
+            <param name="songName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.CreateNewAsync(System.String)">
+            <summary>
+            Creates new Genre
+            </summary>
+            <param name="genreName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.UpdateAsync(System.String,MusicAPI.DTOs.GenresDTOs.GenreSimpleDTO)">
+            <summary>
+            Updates values of target Genre
+            </summary>
+            <param name="genreName"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.GenresController.DeleteAsync(System.String)">
+            <summary>
+            Deletes target Genre
+            </summary>
+            <param name="genreName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.GetAllAsync">
+            <summary>
+            Returns all Playlists in a simplified form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.GetSingleAsync(System.String)">
+            <summary>
+            Returns target Playlist with Song count
+            </summary>
+            <param name="playlistName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.GetSingleDetailedAsync(System.String)">
+            <summary>
+            Returns target Playlist in a detailed form
+            </summary>
+            <param name="playlistName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.GetSingleSongFromPlaylistAsync(System.String,System.String)">
+            <summary>
+            Returns target Song inside Playlist
+            </summary>
+            <param name="playlistName"></param>
+            <param name="songName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.CreateNewAsync(System.String)">
+            <summary>
+            Creates new Playlist
+            </summary>
+            <param name="playlistName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.UpdateAsync(System.String,MusicAPI.DTOs.PlaylistDTOs.PlaylistSimpleDTO)">
+            <summary>
+            Updates values of target Playlist
+            </summary>
+            <param name="playlistName"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.PlaylistsController.DeleteAsync(System.String)">
+            <summary>
+            Deletes target Playlist
+            </summary>
+            <param name="playlistName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.SongsController.GetAllAsync">
+            <summary>
+            Returns all Songs in a simplified form
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.SongsController.GetSingleAsync(System.String)">
+            <summary>
+            Returns target Song in a detailed form
+            </summary>
+            <param name="songName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.SongsController.CreateNewAsync(MusicAPI.DTOs.SongDTOs.SongCreateAndUpdateDTO)">
+            <summary>
+            Creates new Song
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.SongsController.UpdateAsync(System.String,MusicAPI.DTOs.SongDTOs.SongCreateAndUpdateDTO)">
+            <summary>
+            Updates target song values
+            </summary>
+            <param name="songName"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MusicAPI.Controllers.SongsController.DeleteAsync(System.String)">
+            <summary>
+            Deletes target song
+            </summary>
+            <param name="songName"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

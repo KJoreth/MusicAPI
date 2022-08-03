@@ -1,0 +1,14 @@
+C:\Projects\MusicAPI\MusicAPI.Data\bin\Debug\net6.0\MusicAPI.Data.deps.json
+C:\Projects\MusicAPI\MusicAPI.Data\bin\Debug\net6.0\MusicAPI.Data.dll
+C:\Projects\MusicAPI\MusicAPI.Data\bin\Debug\net6.0\MusicAPI.Data.pdb
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.csproj.AssemblyReference.cache
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.AssemblyInfoInputs.cache
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.AssemblyInfo.cs
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.csproj.CoreCompileInputs.cache
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.dll
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\refint\MusicAPI.Data.dll
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.pdb
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\ref\MusicAPI.Data.dll
+C:\Projects\MusicAPI\MusicAPI.Data\bin\Debug\net6.0\MusicAPI.Data.runtimeconfig.json
+C:\Projects\MusicAPI\MusicAPI.Data\obj\Debug\net6.0\MusicAPI.Data.genruntimeconfig.cache
